@@ -53,6 +53,35 @@ const cvDataEn: CvData = {
   jobs: [
     {
       buzzwords: [],
+      company: 'Side-projects',
+      dateFinished: '2020',
+      dateStarted: 'present',
+      description: [
+        `My GitHub profile: https://github.com/karolinahamerszmidt
+        
+        Sales dashboard: https://sales-dashboard.hamerszmidt.eu
+        https://github.com/karolinahamerszmidt/sales-dashboard
+        Tech: React, Typescript, Styled Components
+        
+        GoodsRent: https://goodsrent.com
+        Tech: React, Next.js, Node.js, Typescript
+        
+        Mashcrisp: https://mashcrisp.com
+        https://github.com/karolinahamerszmidt/karolina-blog
+        Tech: React, Netlify
+        
+        Mangaido: https://mangaido.com
+        https://web.archive.org/web/20201205185941/https://mangaido.com/en
+        Video about Mangaido from 2017 https://www.youtube.com/watch?v=livg6nY65nU
+        Tech: React, Ruby
+        
+        I did a series of LinkedIn assessments and acquired skill badges for: React, JavaScript, Frontend Development, Git, CSS, Agile Methodology`,
+      ],
+      location: 'Rotterdam, THE NETHERLANDS',
+      position: 'Frontend Developer',
+    },
+    {
+      buzzwords: [],
       company: 'Finabel - European Army Interoperability Centre',
       dateFinished: '',
       dateStarted: '2020',
@@ -411,6 +440,35 @@ const cvDataPl: CvData = {
   jobs: [
     {
       buzzwords: [],
+      company: 'Side-projekty',
+      dateFinished: '2020',
+      dateStarted: 'present',
+      description: [
+        `Mój profil na GitHub: https://github.com/karolinahamerszmidt
+        
+        Sales dashboard: https://sales-dashboard.hamerszmidt.eu
+        https://github.com/karolinahamerszmidt/sales-dashboard
+        Tech: React, Typescript, Styled Components
+        
+        GoodsRent: https://goodsrent.com
+        Tech: React, Next.js, Node.js, Typescript
+        
+        Mashcrisp: https://mashcrisp.com
+        https://github.com/karolinahamerszmidt/karolina-blog
+        Tech: React, Netlify
+        
+        Mangaido: https://mangaido.com
+        https://web.archive.org/web/20201205185941/https://mangaido.com/en
+        Video o Mangaido z 2017 https://www.youtube.com/watch?v=livg6nY65nU
+        Tech: React, Ruby
+        
+        Zrobiłem serię assesmentów na LinkedIn i posiadam następujące certyfikaty umiejętności: React, JavaScript, Frontend Development, Git, CSS, Metodologia Agile`,
+      ],
+      location: 'Rotterdam, HOLANDIA',
+      position: 'Frontend Developer',
+    },
+    {
+      buzzwords: [],
       company: 'Finabel - European Army Interoperability Centre',
       dateFinished: '',
       dateStarted: '2020',
@@ -620,7 +678,7 @@ const cvDataPl: CvData = {
     dateOfBirth: '12 września 1990',
     email: 'karolina@hamerszmidt.eu',
     fullName: 'Karolina Hamerszmidt',
-    github: null,
+    github: 'karolinahamerszmidt',
     linkedIn: 'karolina-hamerszmidt-9b018a1b0',
     nationality: 'Polskie',
     phoneNumber: '(+48) 503-630-601',

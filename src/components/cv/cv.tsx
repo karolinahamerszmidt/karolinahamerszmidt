@@ -3,7 +3,7 @@
 /* eslint-disable react/jsx-max-depth */
 import QRCode from 'qrcode.react';
 import type { VFC } from 'react';
-import React, { useContext } from 'react';
+import React, { Fragment, useContext } from 'react';
 
 import { LanguageSwitcher } from '../language-switcher';
 import { Locale, LocaleContext } from '../locale-provider';
@@ -231,7 +231,13 @@ export const CV: React.VFC<Props> = ({ data }) => {
                                 <i className="fas fa-dot-circle" />
                               </span>
                             )}
-                            {description}
+                            {description.split('\n').map((descriptionLine, descriptionLineIndex) => (
+                              // eslint-disable-next-line react/no-array-index-key
+                              <Fragment key={descriptionLineIndex}>
+                                {descriptionLineIndex > 0 ? <br /> : null}
+                                {descriptionLine}
+                              </Fragment>
+                            ))}
                           </div>
                         ))}
                       </div>
