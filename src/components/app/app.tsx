@@ -15,13 +15,6 @@ const cvDataEn: CvData = {
     'I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the Personal Data Protection Act as of 29 August 1997, consolidated text: Journal of Laws 2016, item 922 as amended.',
   education: [
     {
-      dateFinished: 'present',
-      dateStarted: '2020',
-      faculty: 'Faculty of Law and Criminology',
-      fieldOfStudy: 'Advanced Master in International Law (LLM)',
-      university: 'Université catholique de Louvain, Belgium',
-    },
-    {
       dateFinished: '2017',
       dateStarted: '2013',
       faculty: 'Faculty of Political Science and International Studies',
@@ -52,10 +45,19 @@ const cvDataEn: CvData = {
   ],
   jobs: [
     {
+      buzzwords: ['Vue.js', 'JavaScript', 'CSS', 'HTML', 'e2e testing', 'unit testing', 'GitLab CI/CD', 'AWS'],
+      company: 'OMRT',
+      dateFinished: 'present',
+      dateStarted: '2021',
+      description: [],
+      location: 'Amsterdam, THE NETHERLANDS',
+      position: 'Frontend Developer',
+    },
+    {
       buzzwords: [],
       company: 'Side-projects',
       dateFinished: '2020',
-      dateStarted: 'present',
+      dateStarted: '',
       description: [
         `My GitHub profile: https://github.com/karolinahamerszmidt
         
@@ -301,10 +303,10 @@ const cvDataEn: CvData = {
     },
   ],
   person: {
-    address1Line1: 'Rue du Trône 217',
-    address1Line2: '1000 Brussels, Belgium',
-    address2Line1: 'Galvanistraat 707 / 13',
-    address2Line2: '3029AD Rotterdam, The Netherlands',
+    address1Line1: 'Galvanistraat 707 / 13',
+    address1Line2: '3029AD Rotterdam, The Netherlands',
+    address2Line1: null,
+    address2Line2: null,
     address3Line1: null,
     address3Line2: null,
     avatarImg: avatar,
@@ -401,13 +403,6 @@ const cvDataPl: CvData = {
     'Wyrażam zgodę na przetwarzanie moich danych osobowych w celu prowadzenia rekrutacji na aplikowane przeze mnie stanowisko.',
   education: [
     {
-      dateFinished: 'obecnie',
-      dateStarted: '2020',
-      faculty: 'Wydział Prawa i Kryminologii',
-      fieldOfStudy: 'Advanced Master: Prawo Międzynarodowe (LLM, zaocznie)',
-      university: 'Université catholique de Louvain, Belgia',
-    },
-    {
       dateFinished: '2017',
       dateStarted: '2013',
       faculty: 'Wydział Nauk Politycznych i Studiów Międzynarodowych',
@@ -439,10 +434,19 @@ const cvDataPl: CvData = {
   ],
   jobs: [
     {
+      buzzwords: ['Vue.js', 'JavaScript', 'CSS', 'HTML', 'e2e testing', 'unit testing', 'GitLab CI/CD', 'AWS'],
+      company: 'OMRT',
+      dateFinished: 'obecnie',
+      dateStarted: '2021',
+      description: [],
+      location: 'Amsterdam, HOLANDIA',
+      position: 'Frontend Developer',
+    },
+    {
       buzzwords: [],
       company: 'Side-projekty',
       dateFinished: '2020',
-      dateStarted: 'present',
+      dateStarted: '',
       description: [
         `Mój profil na GitHub: https://github.com/karolinahamerszmidt
         
@@ -668,12 +672,12 @@ const cvDataPl: CvData = {
     },
   ],
   person: {
-    address1Line1: 'Rue du Trône 217',
-    address1Line2: '1000 Bruksela, Belgia',
-    address2Line1: 'Galvanistraat 707 / 13',
-    address2Line2: '3029AD Rotterdam, Holandia',
-    address3Line1: 'Bachmacka 6/26',
-    address3Line2: '02-647 Warszawa, Polska',
+    address1Line1: 'Galvanistraat 707 / 13',
+    address1Line2: '3029AD Rotterdam, Holandia',
+    address2Line1: null,
+    address2Line2: null,
+    address3Line1: null,
+    address3Line2: null,
     avatarImg: avatar,
     dateOfBirth: '12 września 1990',
     email: 'karolina@hamerszmidt.eu',
